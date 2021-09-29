@@ -42,13 +42,14 @@ function crossOffMovie (event){
             message.textContent=`${event.target.textContent} "Watched"`
         } else {
             message.textContent = "Movie added back!"
-            message.textContent=`${event.target.textContent} "added back to list"`
+            message.textContent=`${event.target.textContent} added back to "need to watch" list`
         }
         revealMessage()
 }
 
 
 function revealMessage() {
+    message.classList.remove('hide')
     setTimeout(() => {
         message.classList.add("hide") 
     },  1000);

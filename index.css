@@ -10,6 +10,7 @@ body {
     justify-content: center;
     background: lightgray;
     font-family: sans-serif;
+    align-items: center;
 }
 
 main {
@@ -31,12 +32,21 @@ input {
 }
 
 ul {
-    font-size: 24px;
+    font-size: 30px;
     width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-content: center;
 }
 
 li {
     cursor: pointer;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    border: #a90015 2px solid;
+    font-family: fantasy;
 }
   
 .checked {
@@ -53,7 +63,8 @@ button {
     border-radius: 10px;
     padding: 5px 15px;
     font-weight: bold;
-    background: teal;
+    background: #a90015;
+    border: black 2px solid;
     color: white;
     margin-left: 20px;
     vertical-align: middle;
